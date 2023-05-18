@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="IMG/favicon-16x16.png" type="image/x-icon">
+    <!-- Link do CSS desta página. -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Titulo do Site. -->
+    <title>Reuniões RFK</title>
+</head>
+<body>
+    <!-- Nesta DIV está o titulo do site em <h1> e a IMG do Grupo Refriko -->
+    <div class="header">
+        <h1>Reuniões RFK</h1>
+        <img src="IMG/rfk.png" alt="IMG_RFK" id="RFK">
+    </div>  
+    <div class="topnav">
+        <!-- Este link leva para o Google Calendar, ele vai perguntar se o usuário deseja adicionar o Calendário de Eventos ao seu proprio Calendário. -->
+        <a href="https://calendar.google.com/calendar/u/0?cid=cmV1bmlhb3Jma0BnbWFpbC5jb20" target="_blank"><strong>Calendário de Enventos</strong></a>
+    </div>
+    <!-- DIV da lista dando orientações para o usuário. -->
+    <div class="calendar1">
+        <div class="calendar2">
+            <h2>Apenas 3 salas para agendamento</h2>
+            <ul id="lista">
+                <strong>
+                    <em>
+                        <li>Sala Refriko</li>
+                        <li>Sala Furioso</li>
+                        <li>Sala Delirio</li>
+                        <li>As Reuniões pode ser feitas pelo Meet também</li>
+                    </em>    
+                </strong>
+            </ul>        
+        </div>
+    </div>
+    <!-- Aqui é a parte do Cal.com, ele já gera o código então fica bem simples utilizar ele -->
+    <div id="my-cal-inline" class="Agendamento"></div>
+        <script type="text/javascript">
+            (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; typeof namespace === "string" ? (cal.ns[namespace] = api) && p(api, ar) : p(cal, ar); return; } p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+            Cal("init", {origin:"https://app.cal.com"});
+
+            Cal("inline", {
+                elementOrSelector:"#my-cal-inline",
+                calLink: "reuniaorfk/agendar-reuniao"
+            });
+
+            Cal("ui", {"styles":{"branding":{"brandColor":"#000000"}},"hideEventTypeDetails":false});
+        </script>
+</body>       
+</html>
