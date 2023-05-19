@@ -36,29 +36,28 @@ body {
   footer {
     background-color: #333;
     color: #ffffff;
-    padding: 10px;
-    text-align: center;
+    padding: 10px 10px;
     width: 100%;
     height: 100%;
     position: fixed;
-    text-align: center;
     font-family: 'Noto Sans Mono', monospace;
   }
   .rfk{
     width: 200px;
     border-radius: 50%;
     float: right;
-    position: relative;
+    left: 100%;
+    position: static;
   }
   h2{
-    text-align: center;
+    padding: 0px 10px;
     font-family: 'Noto Sans Mono', monospace;
   }
  p{
   text-decoration: none;
  }
  p.a{
-  padding: 0px 790px ;
+  padding: 0px 10px ;
   font-family: 'Noto Sans Mono', monospace;
   text-decoration: none;
  }
