@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@media screen and (max-width:600px) {
+    .column{
+        width: 100%;
+    }
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.header{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    background-repeat: no-repeat;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 90px;
+    text-decoration: none;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+div.topnav{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.column1{
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    background-color: #333333fb;
+    text-align: center;
+    padding-bottom: 492px;
+    font-family: 'Unbuntu', sans-serif;
+}
+.column2{
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    background-color: #333;
+    text-align: center;
+    font-family: 'Unbuntu', sans-serif;
+    padding-bottom: 146px;
+}
+.column3{
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    background-color: #333333fb;
+    text-align: center;
+    padding-bottom: 648px;
+    font-family: 'Unbuntu', sans-serif;
+}
+li, h2{
+    color: #ffffff;
+}
+img{
+    width: 10px;
+}
