@@ -1,13 +1,14 @@
 /*
-fonte para so titulo
+  FONTE UTILIZADA NO SITE
 */
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,700&display=swap');
-/* 
-Fonte da tag p do footer
-*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
-body {
-  font-family: 'Noto Sans Mono', monospace;
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@500&display=swap');
+@media screen and (max-width:600px){
+  header{
+    width: 100%;
+  }
+}
+
+  body {
     margin: 0;
     padding: 0;
   }
@@ -16,8 +17,9 @@ body {
     background-color: #333;
     color: #fff;
     padding: 10px;
-    font-family: 'Noto Sans Mono', monospace;
+    font-family: pass;
     background-repeat: no-repeat;
+    font-family: 'Geologica', sans-serif;
   }
   
   nav ul {
@@ -29,47 +31,58 @@ body {
   nav ul li {
     display: inline;
     margin-right: 10px;
+    padding: 0px 20px;
+    font-size: medium;
   }
   
   nav ul li a {
     color: #fff;
     text-decoration: none;
-    padding: 0px 20px;
+    font-family: 'Geologica', sans-serif;
   }
   
   section {
     padding: 20px;
+    font-family: 'Geologica', sans-serif;
   }
   footer {
-    background-color: #ffff;
+    background-color: #fff;
     color: #333;
     padding: 10px 10px;
     width: 100%;
     height: 100%;
     position: fixed;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Geologica', sans-serif;
   }
   .rfk{
     width: 200px;
     border-radius: 50%;
     float: right;
-    left: 100%;
-    position: static;
+    padding: 0px 1700px;
   }
   h1, h2{
     padding: 0px 20px;
-    font-family: 'Mulish', sans-serif;
+  }
+ p{
+  text-decoration: none;
+
   }
  p.a{
   padding: 0px 10px ;
   text-decoration: none;
-  font-family: 'Roboto Mono', monospace;
-  font-size: larger;
+  font-size: large;
+ }
+ .p1{
+  font-size: x-large;
+
+  padding: 0px 20px;
+ }
+ .cor1{
+  color: #fa0000;
+ }
+ .colorlink{
+  color: #000000;
  }
  a{
   text-decoration: none;
- }
- .pfooter{
-  font-size: x-large;
-  padding: 0px 20px;
  }

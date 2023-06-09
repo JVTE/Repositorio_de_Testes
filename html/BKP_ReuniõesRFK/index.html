@@ -1,44 +1,65 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LINK DO CSS DA PÁGINA -->
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="IMG/favicon-16x16.png" type="image/x-icon">
+    <!-- FAVICON DA PÁGINA -->
+    <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/x-icon">
+    <!-- TITULO DA PÁGINA -->
     <title>Reuniões RFK</title>
 </head>
 <body>
-    <header>
-        <h1>Agendamento de reuniões REFRIKO</h1>    
+  <header>
+    <!-- TITULO DO HEADER DA PÁGINA -->
+    <h1>Agendamento de reuniões REFRIKO</h1>    
         <nav>
+          <!-- LISTA DA TAG NAV -->
           <ul>
             <li>
-                <strong>
-                    <a href="https://baserow.io/public/grid/jXephRw9HVSrvKPTzNarfEx063DLinVeZqYV93zQsGU" target="_blank" title="Ver Calendário">Calendário de Eventos</a>
-                </strong>
+              <strong>
+                <!-- LINK PARA O BASEROW -->
+                <a href="https://baserow.io/public/grid/jXephRw9HVSrvKPTzNarfEx063DLinVeZqYV93zQsGU" target="_blank" title="Ver Calendário">Calendário de Eventos</a>
+              </strong>
+            </li>
+            <li>
+              <strong>
+                <!-- LINK DO RDA -->
+                <a href="https://rda.rfk.ind.br/index.php?redirect=%2Fajax%2Fdashboard.php%3Faction%3Dget_card%26dashboard%3Dcentral%26card_id%3Dticket_status%26force%3D0%26embed%3D0%26args%255Bcolor%255D%3D%2523f3f6f4%26args%255Bwidgettype%255D%3Dstackedbars%26args%255Buse_gradient%255D%3D0%26args%255Bpoint_labels%255D%3D0%26args%255Blimit%255D%3D7%26args%255Bcache_key%255D%3Ddashboard_card_central_e575c505b09d7746b67243733641210a73a4fdcc%26args%255Bcard_id%255D%3Dticket_status%26args%255Bgridstack_id%255D%3Dticket_status_8464194e-9c9b-4630-90ee-fb60b65a2182%26d_cache_key%3Dda39a3ee5e6b4b0d3255bfef95601890afd80709%26c_cache_key%3Ddashboard_card_central_e575c505b09d7746b67243733641210a73a4fdcc&error=3" target="_blank">Abertura de chamado</a>
+              </strong>
+            </li>
+            <li>
+              <strong>
+                <!-- LINK DA DOCUMENTAÇÃO RDA -->
+                <a href="https://documentacao.rfk.ind.br/login" target="_blank">Documentação RDA</a>
+              </strong>
             </li>
           </ul>
         </nav>
-      </header>
-      <a href="https://github.com/JVTE" target="_blank"><img src="IMG/rfk.png" alt="IMG RFK" class="rfk"></a>
-        <section>
-            <h2>Escolha uma das três salas para fazer o agendamento</h2>
-            <br>
-                <p class="a">
-                    <a href="" target="_blank" title="Agendamento Sala de Reunião Refriko"> SALA REFRIKO </a> 
-                    <br>
-                    <br>
-                    <!-- Agendamento de sala de reunião Furioso -->
-                    <a href="https://cal.com/sala-furioso" target="_blank" title="Agendamento Sala de Reunião Furioso"> SALA FURIOSO </a>
-                    <br>
-                    <br>
-                    <a href="" target="_blank" title="Agendamento Sala de Reunião Delírio"> SALA DELÍRIO </a>
-                </p>                    
+  </header>
+      <section>
+        <h2>Escolha uma das três salas para fazer o agendamento</h2>
+          <br>
+          <!-- LINKS DO CALL PARA AGENDAR AS REUNIÕES -->
+          <p class="a">
+            <!-- LINK DE AGENDAMENTO PADRÃO -->
+            <a href="https://cal.com/sala-refriko" target="_blank"> <span class="colorlink">SALA REFRIKO</span> </a> 
+              <br>
+              <br>
+            <!-- LINK DE AGENDAMENTO PADRÃO --> 
+            <a href="https://cal.com/sala-furioso" target="_blank"> <span class="colorlink"> SALA FURIOSO </span></a> 
+                <br>
+                <br>
+            <!-- LINK DE AGENDAMENTO PADRÃO --> 
+            <a href="https://cal.com/sala-delirio" target="_blank"> <span class="colorlink"> SALA DELÍRIO </span></a>
         </section>
-      <div id="my-cal-inline" class="agendamento"></div>
       <footer>
-        <p class="pfooter">Para fazer um agendamento selecione um dos links a cima</p>
-      </footer>
+        <!-- iNDICAÇÃO AO USUÁRIO -->
+        <p class="p1"> Para fazer um agendamento selecione um dos links a cima. </p>
+        <p class="p1"> Para verificar se há algum agendamento entrar no link de <span class="cor1">Calendário de Eventos.</span> </p>
+        <a href="https://github.com/JVTE" target="_blank"><img src="img/rfk.png" alt="github" class="rfk"></a>
+      </footer>  
 </body>
 </html>
