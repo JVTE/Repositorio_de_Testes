@@ -43,18 +43,19 @@
   
   section {
     padding: 20px;
-    font-family: 'Geologica', sans-serif;
-    background-image: url(https://media.licdn.com/dms/image/C4D0BAQHL--bcaHherQ/company-logo_200_200/0/1652115806622?e=2147483647&v=beta&t=GzKEs5mwffECeJuFosRiMeOXZwOzBr03ldxxjw6kpeI);
-    background-repeat: no-repeat;
-    background-position: center top;  
+    font-family: 'Geologica', sans-serif; 
   }
+
   footer {
     color: #333;
     padding: 10px 10px;
     width: 100%;
     height: 100%;
     position: fixed;
-    font-family: 'Geologica', sans-serif;  
+    font-family: 'Geologica', sans-serif; 
+    background-image: url(https://media.licdn.com/dms/image/C4D0BAQHL--bcaHherQ/company-logo_200_200/0/1652115806622?e=2147483647&v=beta&t=GzKEs5mwffECeJuFosRiMeOXZwOzBr03ldxxjw6kpeI);
+    background-repeat: no-repeat;
+    background-position: left;  
   }
   h2{
     padding: 0px 20px;
@@ -81,7 +82,7 @@
  .colorlink{
   color: #000000;
  }
- 
+
  a{
   text-decoration: none;
  }
