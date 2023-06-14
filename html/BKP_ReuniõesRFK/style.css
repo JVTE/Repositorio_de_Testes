@@ -20,6 +20,7 @@
     font-family: pass;
     background-repeat: no-repeat;
     font-family: 'Geologica', sans-serif;
+    
   }
   
   nav ul {
@@ -44,6 +45,9 @@
   section {
     padding: 20px;
     font-family: 'Geologica', sans-serif; 
+    background-image: url(img/rfk.png);
+    background-repeat: no-repeat;
+    background-position: right center;
   }
 
   footer {
@@ -53,9 +57,7 @@
     height: 100%;
     position: fixed;
     font-family: 'Geologica', sans-serif; 
-    background-image: url(img/rfk.png);
-    background-repeat: no-repeat;
-    background-position: left;  
+
   }
   h2{
     padding: 0px 20px;
