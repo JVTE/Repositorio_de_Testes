@@ -72,12 +72,14 @@
  .p1{
   font-size: x-large;
   padding: 0px 20px;
- }
-
- .cor1{
-  color: #fa0000;
- }
-
+  color: #ff0000;
+  }
+  #sec{
+    color: #fff;
+  }
+  #foot{
+    color: #000000;
+  }
  .colorlink{
   color: #000000;
  }
