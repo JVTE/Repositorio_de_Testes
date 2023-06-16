@@ -1,0 +1,81 @@
+    $color1: #333;
+    $colo2: #ff0000;
+    $color3: #0000;
+    $color4: #fff;
+    
+    @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@500&display=swap');
+    @media screen and (max-width:600px){
+        header{
+            width: 100%;
+        }
+    }
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        background-color: $color1;
+        color: #fff;
+        padding: 10px;
+        font-family: "Geologica", sans-serif;
+        h1{
+            padding: 0px 20px;
+        }
+    }
+    nav{
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            display: inline;
+            margin-right: 10px;
+            padding: 0px 45px;
+            font-size: medium;
+        }
+        a{
+            color: $color4;
+            text-decoration: none;
+            font-family: 'Geologica', sans-serif;
+        }
+        .nav{
+            color: $color4;
+        }
+    }
+    section{
+        padding: 20px;
+        font-family: 'Geologica', sans-serif;
+        background-image: url(img/rfk.png);
+        background-position: right center;
+        background-repeat: no-repeat;
+        h2{
+            padding: 0px 10px;
+        }
+        #sec{
+            color: $color3;
+        }
+    }
+    footer{
+        color: $color3;
+        padding: 0px 30px;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        font-family: 'Geologica', sans-serif;
+        font-size: x-large;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .a{
+        padding: 0px 10px;
+        text-decoration: none;
+        font-size: large;
+        color: $color3;
+    }
+    #colorlink{
+        color: $color3;
+    }
