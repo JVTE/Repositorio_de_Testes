@@ -12,7 +12,7 @@
     margin: 0;
     padding: 0;
   }
-  
+  /* ESTILO DO HEADER */
   header {
     background-color: #333;
     color: #fff;
@@ -22,26 +22,26 @@
     font-family: 'Geologica', sans-serif;
     
   }
-  
+  /* ESTILO DA LISTA DA TOPNAV */
   nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
-  
+  /* ESTILO DA LISTA DESORDENADA DA TOPNAV */
   nav ul li {
     display: inline;
     margin-right: 10px;
-    padding: 0px 20px;
+    padding: 0px 45px;
     font-size: medium;
   }
-  
+  /* ESTILO DOS LINKS DENTRO DA LISTA DESORDENADA DA TOPNAV */
   nav ul li a {
     color: #fff;
     text-decoration: none;
     font-family: 'Geologica', sans-serif;
   }
-  
+  /* ESTILO DA SECTION */
   section {
     padding: 20px;
     font-family: 'Geologica', sans-serif; 
@@ -49,7 +49,7 @@
     background-repeat: no-repeat;
     background-position: right center;
   }
-
+  /* ESTILO DO RODAPÉ DA PÁGINA */
   footer {
     color: #333;
     padding: 10px 10px;
@@ -59,31 +59,39 @@
     font-family: 'Geologica', sans-serif; 
 
   }
-  h2{
+  /* ESTILO DOS LINKS DENTRO DA TAG P DENTRO DA SECTION */
+  p.a{
+    padding: 0px 10px ;
+    text-decoration: none;
+    font-size: large;
+  }
+  /* ESTILO DA TAG H1 */
+  h1{
     padding: 0px 20px;
   }
-  
- p.a{
-  padding: 0px 10px ;
-  text-decoration: none;
-  font-size: large;
- }
-
- .p1{
-  font-size: x-large;
-  padding: 0px 20px;
-  color: #ff0000;
+  /* ESTILO DA TAG H2 */ 
+  h2{
+    padding: 0px 10px;
   }
+  /* ESTILO DA TAG P DO FOOTER */
+  .p1{
+    font-size: x-large;
+    padding: 0px 20px;
+    color: #ff0000;
+  }
+  /* COR DO TEXTO DO SPAN DA SECTION */
   #sec{
     color: #fff;
   }
+  /* COR DO TEXTO DO SPAN DO FOOTER */
   #foot{
     color: #000000;
   }
- .colorlink{
+  
+  .colorlink{
   color: #000000;
- }
+  }
 
- a{
-  text-decoration: none;
- }
+  a{
+    text-decoration: none;
+  }
