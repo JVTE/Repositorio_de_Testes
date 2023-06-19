@@ -47,3 +47,10 @@
     .relogio span.tempo{
         font-size: 10px;
     }
+
+    .dtAtual{
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        font-size: xx-large;
+    }

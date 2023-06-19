@@ -19,3 +19,13 @@ const relogio = setInterval(function time(){
     segundos.textContent = s;
     
 })
+
+var data_atual = new Date();
+
+var dia = data_atual.getDate();
+var mes = data_atual.getMonth();
+var ano = data_atual.getFullYear();
+
+var dataFormatada = dia + '/' + mes + '/' + ano;
+
+document.getElementById("data_atual").innerHTML = dataFormatada
