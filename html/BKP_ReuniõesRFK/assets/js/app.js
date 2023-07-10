@@ -44,4 +44,4 @@ function mostrarDataAtualizada() {
     // Atualiza a data a cada segundo (1000 milissegundos)
     setInterval(atualizarData, 1000);
   }
-  
+  mostrarDataAtualizada();
